@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* Optional: Adds space between grid items */
+}
+
+.grid-item {
+height: 30vh;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
