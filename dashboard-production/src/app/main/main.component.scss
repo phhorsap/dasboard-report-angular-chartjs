@@ -3,12 +3,16 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px; /* Optional: Adds space between grid items */
+  background-color: lightgrey;
+  margin-top: 20px;
 }
 
 .grid-item {
-height: 30vh;
-  background-color: #ccc;
+  margin-top: 10px;
+height: 60vh;
+  background-color:white;
   border-radius: 10px;
+  border-color: gray;
   padding: 20px;
   text-align: center;
 }
