@@ -23,11 +23,11 @@ export class MainComponent implements OnInit {
       labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
       datasets: [
         {
-          label: 'My First dataset',
+          label: 'Yield',
           data: [65, 59, 80, 81, 56, 55, 40]
         },
         {
-          label: 'My Second dataset',
+          label: 'Scrap',
           data: [28, 48, 40, 19, 86, 27, 90]
         }
       ]
@@ -43,10 +43,10 @@ export class MainComponent implements OnInit {
     };
     //Doughnut 
     this.data_1 = {
-            labels: ['A', 'B', 'C'],
+            labels: ['A', 'B', 'C','D'],
             datasets: [
                 {
-                    data: [300, 50, 100],
+                    data: [300, 50, 100,20],
                      }
             ]
         };
